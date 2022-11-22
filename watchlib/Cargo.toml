@@ -1,0 +1,14 @@
+[package]
+name = "watchlib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "watchlib"
+crate-type = ["staticlib"]
+
+[dependencies]
+if-watch = { version = "3.0.0", features = ["smol"] }
+env_logger = "0.9.0"
+smol = "1.2.5"
+futures = "0.3.19"
