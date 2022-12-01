@@ -21,7 +21,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        let result = watchlib_start()
+        let result = start("")
         ContentView()
     }
 }
