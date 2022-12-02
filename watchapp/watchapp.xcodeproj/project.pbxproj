@@ -151,6 +151,7 @@
 			buildConfigurationList = 5F947313292BBAF2008F24A4 /* Build configuration list for PBXNativeTarget "watchapp" */;
 			buildPhases = (
 				5F9472EB292BBAED008F24A4 /* Sources */,
+				5FB529BD29392FBF00239282 /* Log Build Settings */,
 				5F9472EC292BBAED008F24A4 /* Frameworks */,
 				5F9472ED292BBAED008F24A4 /* Resources */,
 			);
@@ -267,6 +268,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FB529BD29392FBF00239282 /* Log Build Settings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Log Build Settings";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "export\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F9472EB292BBAED008F24A4 /* Sources */ = {
